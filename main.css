@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+}
+.nav {
+    background-color: brown;
+    color:azure;
+}
+
+ul#flex-container {
+    list-style-type:none;
+    margin: 0; padding: 0;
+    display; flex;
+
+}
+.title {
+    color:azure;
+}
+
+ul li:first-child {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 250px;
+    margin: 0;
+    color: rgb(245, 243, 243);
+    background-color: aquamarine;
+    padding-top: 30px;
+    background-image: url(./ninjaturtles.png);
+    margin-bottom: 10px;
+}
+
+.links{
+    float: right;
+}
+
+.title {
+    float: left;
+}
+
+ul li:nth-child(3) {
+    text-align: center;
+    padding: 70px;
+    background-color: black;
+    color: whitesmoke;
+   
+   
+}
+
+ul li:nth-child(5) {
+    text-align: center;
+    padding: 140px;
+    background-color: rgb(161, 11, 11);
+    color: whitesmoke;
+
+}
+
+ul li:last-child {
+    text-align: center;
+    padding: 70px;
+    background-color: rgb(90, 87, 87);
+    color: whitesmoke;
+}
+
+.pizza {
+    float: left;
+    width: 27.5%;
+    height:27.5%;
+    display:inline-block;
+    align-content: left;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.rocky {
+    float: right;
+    width: 26%;
+    height: 26%;
+    display:inline-block;
+    align-content: left;
+    justify-content: flex-start;
+    position: relative;
+
+}
+
+.starwars {
+    float:left;
+    width: 28%;
+    height: 28%;
+    display:inline-block;
+    align-content: left;
+    justify-content: flex-start;
+    position: relative;
+}
